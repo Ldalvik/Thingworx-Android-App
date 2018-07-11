@@ -16,7 +16,7 @@ public class GetRequest extends AsyncTask<Void, Void, String> {
     private String property;
     private Context ctx;
     private TextView tv;
-    private static String appKey = "f76e9513-0bbc-4b33-af7f-09e5ea959504";
+    private static String appKey = "";
 
 
     public GetRequest(Context ctx, String url, String property, TextView tv) {
